@@ -96,3 +96,16 @@ footer {
   padding: 25px;
   margin-top: 40px;
 }
+
+.logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
