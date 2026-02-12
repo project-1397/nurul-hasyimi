@@ -4,115 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pondok Pesantren Nurul Hasyimi</title>
+
+  <!-- Link ke CSS eksternal -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Font Google -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    body {
-      background: #f4f7f6;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(135deg, #0f5132, #198754);
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      opacity: 0.9;
-    }
-
-    nav {
-      background: #14532d;
-      padding: 15px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: 500;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      color: #ffd43b;
-    }
-
-    section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    section h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #14532d;
-      font-size: 2rem;
-    }
-
-    .card-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background: #198754;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background: #14532d;
-    }
-
-    footer {
-      background: #0f5132;
-      color: white;
-      text-align: center;
-      padding: 25px;
-      margin-top: 40px;
-    }
-
-    .contact p {
-      margin-bottom: 10px;
-    }
-
-  </style>
 </head>
 <body>
 
@@ -130,8 +27,8 @@
 
   <section id="tentang">
     <h2>Tentang Kami</h2>
-    <p style="text-align:center; max-width:800px; margin:auto;">
-      Pondok Pesantren Nurul Hasyimi adalah lembaga pendidikan Islam yang berkomitmen untuk membentuk santri yang berilmu, berakhlak, dan mandiri. Dengan kurikulum terpadu antara pendidikan agama dan umum, kami berusaha mencetak generasi yang siap menghadapi tantangan zaman.
+    <p class="center-text">
+      Pondok Pesantren Nurul Hasyimi adalah lembaga pendidikan Islam yang berkomitmen untuk membentuk santri yang berilmu, berakhlak, dan mandiri.
     </p>
   </section>
 
@@ -150,10 +47,6 @@
         <h3>Bahasa Arab & Inggris</h3>
         <p>Pembelajaran bahasa untuk mendukung pemahaman kitab dan komunikasi global.</p>
       </div>
-      <div class="card">
-        <h3>Kegiatan Ekstrakurikuler</h3>
-        <p>Pramuka, hadrah, kaligrafi, olahraga, dan kegiatan pengembangan diri lainnya.</p>
-      </div>
     </div>
   </section>
 
@@ -163,17 +56,16 @@
       <div class="card">Kegiatan Belajar Mengajar</div>
       <div class="card">Wisuda Tahfidz</div>
       <div class="card">Kegiatan Keagamaan</div>
-      <div class="card">Lomba & Prestasi Santri</div>
     </div>
   </section>
 
   <section id="kontak">
     <h2>Kontak Kami</h2>
-    <div class="contact" style="text-align:center;">
+    <div class="contact">
       <p><strong>Alamat:</strong> Jl. Contoh No.123, Indonesia</p>
       <p><strong>Email:</strong> info@nurulhasyimi.sch.id</p>
       <p><strong>Telepon:</strong> 08xx-xxxx-xxxx</p>
-      <a href="#" class="btn">Daftar Sekarang</a>
+      <button class="btn" onclick="daftarSekarang()">Daftar Sekarang</button>
     </div>
   </section>
 
@@ -181,5 +73,7 @@
     <p>&copy; 2026 Pondok Pesantren Nurul Hasyimi. All Rights Reserved.</p>
   </footer>
 
+  <!-- Link ke JavaScript eksternal -->
+  <script src="js/script.js"></script>
 </body>
 </html>
