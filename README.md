@@ -96,4 +96,4 @@ Website ini bebas digunakan dan dikembangkan untuk keperluan pendidikan.
 
 ---
 
-**© 2026 Pondok Pesantren N
+**© 2026 Pondok Pesantren Nurul Hasyimi**
